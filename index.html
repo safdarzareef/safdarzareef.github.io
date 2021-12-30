@@ -1,10 +1,103 @@
 <html>
     <head>
-        <link rel="icon" href="images/icon.JPG">
+        <meta charset="UTF-8">
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+        <style>
+            h1 {
+                font-weight:300;
+                font-family: 'Merriweather', serif;
+                font-size: 64px;
+                margin: 5px;
+                padding: 0px;
+            }
+
+            p {
+                font-family: 'Roboto Mono', sans-serif;
+                font-size: 18px;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .boxed {
+                border: 1px solid black;
+                width: 100%;
+            }
+            
+            .rTable { 
+                display: table; 
+                width: 100%;
+            }
+            .rTableRow { 
+                display: table-row;
+            }
+            .rTableHeading { 
+                display: table-header-group; 
+            }
+            .rTableBody { 
+                display: table-row-group; 
+            }
+            .rTableFoot { 
+                display: table-footer-group; 
+            }
+            .rTableCell, .rTableHead { 
+                display: table-cell; 
+                word-wrap: break-word; 
+                vertical-align: top;
+                padding-left: 10px;
+            }
+
+        </style>
+
+        <!--Favicon-->
+        <link rel="icon" href="images/icon.JPG"> 
         <title>Zareef Safdar</title>
     </head>
     <body>
-        <h1>Zareef Raiyan Safdar</h1>
-        <p>Welcome to my personal website and blog!</p>
+        <div class="rTable">
+            <div class="boxed">
+
+                <div class="rTableRow">
+                    <div class="rTableCell" style="width:20%;">
+                        <img src="images/icon.JPG" height="200px">
+                    </div>
+
+                    <div class="rTableCell" style="width:80%;">
+                        <h1>Zareef Raiyan Safdar</h1>
+                        <p>
+                            <b><i>Quick Info &#8505:</i></b> <br>
+                            <b>Emails &#9993:</b> safdarzareef <i>at</i> gmail <i>dot</i> com and szareef <i>at</i> umich <i>dot</i> edu <br>
+                            <b>LinkedIn &#128188:</b> <a href="https://www.linkedin.com/in/szareef/">Click Here</a><br>
+                            <b>Resume &#128196:</b> <a href="attachments/resume.pdf">Click Here</a> <br>
+                            <b>GitHub &#128640:</b> <a href="https://github.com/safdarzareef/">Click Here</a><br>
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="rTableRow">
+                    <div class="rTableCell">
+                        <p>
+                            <b><i>About Me &#11015:</i></b> <br>
+                            &#128187 I am a Computer Science and Math undergraduate student at the University of Michigan, Ann Arbor (Graduating Decmeber 2022!). <br>
+                            &#128210 I have taken classes on Software Engineering, Machine Learning and Computer Vision classes to name a few.<br>
+                            &#128663 Previously, I worked at Deepen AI as a Software Engineering intern, working on Autonomous Vehicle Simulation. <br>
+                            &#129302 Currently, I am working as an undergraduate research assistant at the Curly Lab on Robot Simulation. <br>
+                            &#10071 Next summer (2022), I will be doing an internship at Ford as an Autonomous Vehicle Simulation intern to continue my interests in Robotics and Autonomous Vehicles! <br>
+
+                            <br> 
+                            &#128640 Apart from Autonomous Vehicles and Robotics, I am broadly interested in Software Engineering, Computer Vision and Game Development! Check out my projects here. <br>
+                            <br>
+                            &#9917 I am also a big fan of football (the kind that some people call soccer), and read more about that side of me here! <br>
+                            <br>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
